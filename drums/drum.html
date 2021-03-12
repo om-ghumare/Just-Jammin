@@ -53,6 +53,10 @@
             <kbd class="key-code">K</kbd>
             <span class="key-sound">Hi-Hat Closed</span>
           </li>
+          <li>
+            <kbd class="key-code">M</kbd>
+            <span class="key-sound">Cowbell</span>
+          </li>
         </ul>
       </div>
       <h1 class="main-title"> Drum Kit</h1>
@@ -89,11 +93,17 @@
         <div data-key="75" class="key hihat-close">
           <kbd>K</kbd>
         </div>
-        <img class="drum-kit" src="https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/img/drum-kit.png" alt="Drum Kit" />
+        <div data-key="77" class="key cowbell">
+          <kbd>M</kbd>
+        </div>
+        <img class="drum-kit" src="drum-kit.png" alt="Drum Kit" />
+      </div>
+      <div class="cowbell">
+    
       </div>
     </section>
   </main>
-    <audio data-key="74" src="snare.wav"></audio>
+  <audio data-key="74" src="snare.wav"></audio>
   <audio data-key="66" src="kick.wav"></audio>
   <audio data-key="86" src="kick.wav"></audio>
   <audio data-key="72" src="tom-high.wav"></audio>
@@ -103,6 +113,9 @@
   <audio data-key="82" src="ride.wav"></audio>
   <audio data-key="73" src="hihat-open.wav"></audio>
   <audio data-key="75" src="hihat-close.wav"></audio>
+  <audio data-key="77" src="cowbell.mp3"></audio>
+
+
   <script src="drum.js"></script>
 </body>
 </html>
