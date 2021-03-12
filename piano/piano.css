@@ -69,8 +69,8 @@
   }
   .piano {
     display: flex;
-    /* border: 5px solid rgb(121, 58, 58);
-    box-shadow: 5px 5px 60px mistyrose; */
+    border: 5px solid rgb(121, 58, 58);
+    box-shadow: 5px 5px 60px mistyrose;
     position: relative;
     top: -180px;
   }
