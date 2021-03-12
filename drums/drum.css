@@ -47,6 +47,18 @@ body::before{
 	height: 520px;
 	position: relative;
 }
+.cowbell{
+	background: url('th-removebg-preview.png')no-repeat center center/cover;
+
+
+	height:130px;
+	width: 180px;
+	position: relative;
+
+	top: -270px;
+	left: 720px;
+
+}
 
 .crash-cymbal {
 	position: absolute;
@@ -129,6 +141,10 @@ body::before{
 .key.hihat-close {
 	right: 60px;
     top: 150px;
+}
+.key.cowbell{
+	top: 291px;
+    left: 565px;
 }
 
 .playing {
