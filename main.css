@@ -56,7 +56,7 @@ margin-right: 6px;
     
 }
 #about{
-    height: 600px;
+    height: 800px;
     width: auto;
    
     position: relative; 
@@ -258,7 +258,7 @@ justify-content: center;
   top: -45px;
     margin-left: 239px;
     width: 500px;
-    padding: 0.5rem;
+    padding: 1rem;
     border-radius: 50px;
     font-size: 25px;
 } 
@@ -274,6 +274,12 @@ justify-content: center;
    font-size: 1.3rem;
   margin-left: -30px;
 position: relative;
+
+}
+#contact-box label .form{
+    position: relative;
+    left: 190px;
+    bottom: 50px;
 }
 .btn{
     position: relative;
